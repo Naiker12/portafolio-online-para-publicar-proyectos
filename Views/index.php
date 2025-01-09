@@ -22,22 +22,11 @@
             <div class="header-menu d-lg-block d-none">
 
                 <ul class="nav-menu flx-align">
-                    <li class="nav-menu__item has-submenu">
-                        <a href="javascript:void(0)" class="nav-menu__link">Inicio</a>
-                        <ul class="nav-submenu">
-                            <li class="nav-submenu__item">
-                                <a href="index.html" class="nav-submenu__link"> Inicio Uno</a>
-                            </li>
-                            <li class="nav-submenu__item">
-                                <a href="index-two.html" class="nav-submenu__link"> Inicio Dos</a>
-                            </li>
-                            <li class="nav-submenu__item">
-                                <a href="index-three.html" class="nav-submenu__link"> Inicio Tres</a>
-                            </li>
-                        </ul>
+                    <li class="nav-menu__item">
+                        <a href="contact.html" class="nav-menu__link">Inicio</a>
                     </li>
                     <li class="nav-menu__item has-submenu">
-                        <a href="javascript:void(0)" class="nav-menu__link">Productos</a>
+                        <a href="javascript:void(0)" class="nav-menu__link">Tienda</a>
                         <ul class="nav-submenu">
                             <li class="nav-submenu__item">
                                 <a href="all-product.html" class="nav-submenu__link"> Todos los Productos</a>
@@ -48,7 +37,7 @@
                         </ul>
                     </li>
                     <li class="nav-menu__item has-submenu">
-                        <a href="javascript:void(0)" class="nav-menu__link">Páginas</a>
+                        <a href="javascript:void(0)" class="nav-menu__link">Plantillas</a>
                         <ul class="nav-submenu">
                             <li class="nav-submenu__item">
                                 <a href="profile.html" class="nav-submenu__link"> Perfil</a>
@@ -148,17 +137,16 @@
     <img src="assets/images/shapes/element-moon1.png" alt="" class="element one">
     <img src="assets/images/shapes/element-moon2.png" alt="" class="element two">
 
+
     <div class="container container-two">
         <div class="row align-items-center gy-sm-5 gy-4">
             <div class="col-lg-6">
                 <div class="hero-inner position-relative pe-lg-5">
                     <div>
-                        <h1 class="hero-inner__title">Más de 2M de productos digitales seleccionados</h1>
-                        <p class="hero-inner__desc font-18">Explora los mejores temas y complementos premium
-                            disponibles para la venta. Nuestra colección única está seleccionada por expertos. Encuentra
-                            y compra
-                            el tema premium perfecto hoy.</p>
-
+                        <h1 class="hero-inner__title">Proyectos y Plantillas Únicas</h1>
+                        <p class="hero-inner__desc font-18">Descubre una selección única de proyectos personales y
+                            plantillas premium creadas por un programador backend apasionado. Inspírate, aprende y
+                            encuentra soluciones que se adapten a tus necesidades.</p>
                         <div class="position-relative">
                             <div class="search-box">
                                 <input type="text"
@@ -236,7 +224,6 @@
                                 <img src="assets/images/thumbs/tech-icon9.png" alt="">
                             </a>
                         </div>
-                        <!-- Lista de Tecnologías Fin -->
                     </div>
                 </div>
             </div>
@@ -246,6 +233,8 @@
                     <img src="assets/images/shapes/dots.png" alt="" class="dotted-img white-version">
                     <img src="assets/images/shapes/dots-white.png" alt="" class="dotted-img dark-version">
                     <img src="assets/images/shapes/element2.png" alt="" class="element two end-0">
+                    <img src="assets/images/shapes/element2.png" alt="" class="element two end-1">
+
 
                     <div class="statistics animation bg-main text-center">
                         <h5 class="statistics__amount text-white">50k</h5>
@@ -354,7 +343,7 @@
 
     <div class="container container-two">
         <div class="section-heading">
-            <h3 class="section-heading__title">Nuevos Productos Llegados</h3>
+            <h3 class="section-heading__title">Nuevos Proyectos</h3>
         </div>
 
 
@@ -375,16 +364,16 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-siteTemplate-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-siteTemplate" type="button" role="tab" aria-controls="pills-siteTemplate"
-                    aria-selected="false">site Template</button>
+                    aria-selected="false">java</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-blogging-tab" data-bs-toggle="pill" data-bs-target="#pills-blogging"
-                    type="button" role="tab" aria-controls="pills-blogging" aria-selected="false">blogging</button>
+                    type="button" role="tab" aria-controls="pills-blogging" aria-selected="false">crud</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-marketing-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-marketing" type="button" role="tab" aria-controls="pills-marketing"
-                    aria-selected="false">marketing</button>
+                    aria-selected="false">js</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-plugins-tab" data-bs-toggle="pill" data-bs-target="#pills-plugins"
@@ -3476,59 +3465,54 @@
         <div class="row gy-4 flex-wrap-reverse align-items-center">
             <div class="col-xl-6">
                 <div class="row gy-4 card-wrapper">
-                    <div class="col-sm-6">
-                        <div class="producto-item sombra-caja">
-                            <div class="producto-item__miniatura d-flex">
-                                <a href="detalles-producto.html" class="enlace w-100">
-                                    <img src="assets/images/thumbs/product-img9.png" alt="" class="imagen-cubierta">
+                    
+                <div class="col-sm-6">
+                        <div class="product-item box-shadow">
+                            <div class="product-item__thumb d-flex">
+                                <a href="product-details.html" class="link w-100">
+                                    <img src="assets/images/thumbs/product-img4.png" alt="" class="cover-img">
                                 </a>
-                                <button type="button" class="producto-item__lista-deseos"><i
+                                <button type="button" class="product-item__wishlist"><i
                                         class="fas fa-heart"></i></button>
                             </div>
-                            <div class="producto-item__contenido">
-                                <h6 class="producto-item__titulo">
-                                    <a href="detalles-producto.html" class="enlace">Tablero SaaS productos digitales
+                            <div class="product-item__content">
+                                <h6 class="product-item__title">
+                                    <a href="product-details.html" class="link">Productos digitales de dashboard SaaS
                                         Título aquí</a>
                                 </h6>
-                                <div class="producto-item__info flx-between gap-2">
-                                    <span class="producto-item__autor">
+                                <div class="product-item__info flx-between gap-2">
+                                    <span class="product-item__author">
                                         por
-                                        <a href="perfil.html" class="enlace hover-text-decoration-underline">
+                                        <a href="profile.html" class="link hover-text-decoration-underline">
                                             themepix</a>
                                     </span>
                                     <div class="flx-align gap-2">
-                                        <h6 class="producto-item__precio mb-0">$120</h6>
-                                        <span
-                                            class="producto-item__precioPrevio text-decoration-line-through">$259</span>
+                                        <h6 class="product-item__price mb-0">$59</h6>
+                                        <span class="product-item__prevPrice text-decoration-line-through">$129</span>
                                     </div>
                                 </div>
-                                <div class="producto-item__inferior flx-between gap-2">
+                                <div class="product-item__bottom flx-between gap-2">
                                     <div>
-                                        <span class="producto-item__ventas fuente-14 mb-2">1200 Ventas</span>
+                                        <span class="product-item__sales font-14 mb-2">1225 Ventas</span>
                                         <div class="d-flex align-items-center gap-1">
-                                            <ul class="clasificacion-estrellas">
-                                                <li class="clasificacion-estrellas__item fuente-11"><i
-                                                        class="fas fa-star"></i></li>
-                                                <li class="clasificacion-estrellas__item fuente-11"><i
-                                                        class="fas fa-star"></i></li>
-                                                <li class="clasificacion-estrellas__item fuente-11"><i
-                                                        class="fas fa-star"></i></li>
-                                                <li class="clasificacion-estrellas__item fuente-11"><i
-                                                        class="fas fa-star"></i></li>
-                                                <li class="clasificacion-estrellas__item fuente-11"><i
-                                                        class="fas fa-star"></i></li>
+                                            <ul class="star-rating">
+                                                <li class="star-rating__item font-11"><i class="fas fa-star"></i></li>
+                                                <li class="star-rating__item font-11"><i class="fas fa-star"></i></li>
+                                                <li class="star-rating__item font-11"><i class="fas fa-star"></i></li>
+                                                <li class="star-rating__item font-11"><i class="fas fa-star"></i></li>
+                                                <li class="star-rating__item font-11"><i class="fas fa-star"></i></li>
                                             </ul>
-                                            <span
-                                                class="clasificacion-estrellas__texto texto-cabecera fw-500 fuente-14">
+                                            <span class="star-rating__text text-heading fw-500 font-14">
                                                 (16)</span>
                                         </div>
                                     </div>
-                                    <a href="detalles-producto.html" class="btn btn-borde-claro btn-sm pill">Demo en
-                                        Vivo</a>
+                                    <a href="product-details.html" class="btn btn-outline-light btn-sm pill">Demo en
+                                        vivo</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-sm-6">
                         <div class="product-item box-shadow">
@@ -3760,7 +3744,98 @@
                     </div>
                 </div>
             </div>
-            <!-- Repita los bloques de producto para los siguientes productos -->
+
+            <div class="product-item shadow-sm overlay-none">
+                <div class="product-item__thumb d-flex max-h-unset">
+                    <a href="product-details.html" class="link w-100">
+                        <img src="assets/images/thumbs/product-img12.png" alt="" class="cover-img">
+                    </a>
+                </div>
+                <div class="product-item__content">
+                    <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">Título aquí: nuevos temas del mercado de productos
+                            digitales</a>
+                    </h6>
+                    <div class="product-item__info flx-between gap-2">
+                        <span class="product-item__author">
+                            por
+                            <a href="profile.html" class="link hover-text-decoration-underline"> themepix</a>
+                        </span>
+                        <div class="flx-align gap-2">
+                            <h6 class="product-item__price mb-0">$56</h6>
+                            <span class="product-item__prevPrice text-decoration-line-through">$65</span>
+                        </div>
+                    </div>
+                    <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                            <span class="product-item__sales font-16 mb-2">1230 Ventas</span>
+                            <ul class="star-rating gap-2">
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="flx-align gap-2">
+                            <a href="product-details.html"
+                                class="btn btn-outline-light download-icon btn-icon btn-icon--sm pill">
+                                <span class="icon">
+                                    <img src="assets/images/icons/download.svg" alt="" class="white-version">
+                                    <img src="assets/images/icons/download-white.svg" alt="" class="dark-version">
+                                </span>
+                            </a>
+                            <a href="product-details.html" class="btn btn-outline-light pill">Demo en Vivo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item shadow-sm overlay-none">
+                <div class="product-item__thumb d-flex max-h-unset">
+                    <a href="product-details.html" class="link w-100">
+                        <img src="assets/images/thumbs/product-img12.png" alt="" class="cover-img">
+                    </a>
+                </div>
+                <div class="product-item__content">
+                    <h6 class="product-item__title">
+                        <a href="product-details.html" class="link">Título aquí: nuevos temas del mercado de productos
+                            digitales</a>
+                    </h6>
+                    <div class="product-item__info flx-between gap-2">
+                        <span class="product-item__author">
+                            por
+                            <a href="profile.html" class="link hover-text-decoration-underline"> themepix</a>
+                        </span>
+                        <div class="flx-align gap-2">
+                            <h6 class="product-item__price mb-0">$56</h6>
+                            <span class="product-item__prevPrice text-decoration-line-through">$65</span>
+                        </div>
+                    </div>
+                    <div class="product-item__bottom flx-between gap-2">
+                        <div>
+                            <span class="product-item__sales font-16 mb-2">1230 Ventas</span>
+                            <ul class="star-rating gap-2">
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                                <li class="star-rating__item font-16"><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="flx-align gap-2">
+                            <a href="product-details.html"
+                                class="btn btn-outline-light download-icon btn-icon btn-icon--sm pill">
+                                <span class="icon">
+                                    <img src="assets/images/icons/download.svg" alt="" class="white-version">
+                                    <img src="assets/images/icons/download-white.svg" alt="" class="dark-version">
+                                </span>
+                            </a>
+                            <a href="product-details.html" class="btn btn-outline-light pill">Demo en Vivo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- ======================= Selling Products End ========================= -->
@@ -3792,8 +3867,8 @@
                                 <img src="assets/images/thumbs/author-img.png" alt="">
                             </div>
                             <div class="author-info__content">
-                                <h4 class="author-info__name mb-1">Amplify</h4>
-                                <span class="author-info__text">Miembro desde 2021</span>
+                                <h4 class="author-info__name mb-1">Code Clean</h4>
+                                <span class="author-info__text">Miembro desde 2022</span>
                             </div>
                         </div>
                         <div class="flx-align gap-2 mt-48">
@@ -3810,7 +3885,7 @@
                             </div>
                             <div class="circle__text">
                                 <p>
-                                    Autor Destacado Principal de DPmarketer
+                                    Naiker Gomez Caraballo
                                 </p>
                             </div>
                         </div>
@@ -3912,19 +3987,19 @@
                         <div class="performance-content">
                             <div class="performance-content__item">
                                 <span class="performance-content__text font-18">Suscripciones por Correo</span>
-                                <h4 class="performance-content__count">49,000+</h4>
+                                <h4 class="performance-content__count">00,000+</h4>
                             </div>
                             <div class="performance-content__item">
-                                <span class="performance-content__text font-18"> Total de Productos</span>
-                                <h4 class="performance-content__count">45,000+</h4>
+                                <span class="performance-content__text font-18"> Total de plantillas</span>
+                                <h4 class="performance-content__count">00,000+</h4>
                             </div>
                             <div class="performance-content__item">
                                 <span class="performance-content__text font-18"> Total de Descargas</span>
-                                <h4 class="performance-content__count">48,000+</h4>
+                                <h4 class="performance-content__count">00,000+</h4>
                             </div>
                             <div class="performance-content__item">
                                 <span class="performance-content__text font-18"> Visitantes Mensuales</span>
-                                <h4 class="performance-content__count">65,000+</h4>
+                                <h4 class="performance-content__count">00,000+</h4>
                             </div>
                         </div>
                     </div>

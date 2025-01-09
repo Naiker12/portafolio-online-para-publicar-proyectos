@@ -1,9 +1,9 @@
 <?php
-const BASE_URL = "http://localhost/tienda-virtual";
+const BASE_URL = "http://localhost/code-clean-studio";
 const HOST = "localhost";
 const USER = "root";
 const PASS = "";
-const DB = "tienda-virtual";
+const DB = "code-clean-studio";
 const CHARSET = "charset=utf8";
 const TITLE = "Code Clean";
 const MONEDA = "USD";
